@@ -1,4 +1,4 @@
-# installer notes: Please read before using
+# Installer notes: Please read before using
 <br> Run the following as superuser.
 <br> USAGE: $su 
 <br> bash VisualPythonInstaller.sh  
@@ -16,3 +16,11 @@ tk, libgtk and boost-python are some other dependencies. <br>
 <br><br>
 You can open the VPython IDE by using the following command:
 python2.7 /usr/local/lib/python2.7/dist-packages/VPython-6.11-py2.7-linux-x86_64.egg/vidle/idle.py.
+
+***Updates***
+Now the script installs in the directory that you run it from.  Simply create a directory, copy this file and run:
+
+mkdir vpython6
+#copy the file into this directory
+cd vpython6
+sudo ./VisualPythonInstaller.sh
