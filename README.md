@@ -32,3 +32,9 @@ If you are using anaconda instead of the default ubuntu python you need to first
 
 ***Issues using conda***
 1. Doesn't install properly (installs to system python) -> fix <code>easy_install VPython*.egg</code>
+2. Still isn't working completely
+
+conda install -c conda-forge fonttools 
+conda install -c tofuproject polygon2 
+
+easy_install TTFQuery-1.0.5/dist/TTF*.egg
