@@ -28,4 +28,7 @@ sudo ./VisualPythonInstaller.sh
 ***Update***
 If you are using anaconda instead of the default ubuntu python you need to first run:
 
-<code>conda install wxpython
+<code>conda install wxpython </code>
+
+***Issues using conda***
+1. Doesn't install properly (installs to system python) -> fix <code>easy_install VPython*.egg</code>
