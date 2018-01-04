@@ -24,3 +24,8 @@ mkdir vpython6
 #copy the file into this directory
 cd vpython6
 sudo ./VisualPythonInstaller.sh
+
+***Update***
+If you are using anaconda instead of the default ubuntu python you need to first run:
+
+<code>conda install wxpython
